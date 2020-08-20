@@ -15,6 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                echo 'i have created my first pipeline'
             }
         }
     }
